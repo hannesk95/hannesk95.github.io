@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   My personal interests are particularly related to the fields of Artificial Intelligence (Machine Learning, Deep Learning), Computer Vision, Embedded and Computer Systems, High-Performance-Computing as well as Intelligence on the Edge.
     
-  <mark>Servus:</mark> The most general way how to welcome somebody in bavrian native language.
+  <mark>Servus:</mark> The most general way how to welcome somebody in Bavaria.
 
 content:
   - title: Projects # Title for the section
@@ -92,24 +92,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
+        title: Technical Universtiy Munich (TUM)
         caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        sub_title: M.Sc. Electrical- and Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - Applied Machine Intelligence
+          - Computer Vision
+          - Machine Learning in Robotics
+          - Optimal Control and Decision Making
+          - High Performace Computing for Machine Intelligence in Python/C++
+          - Seminar Machine Learning about Robustness and Distribution Shifts
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in machine learning and software engineering some of my other interests and hobbies are:
+      - Soccer
+      - Traveling
+      - Cooking
+      - [Spending time with friends while having a ice cold beer](https://www.youtube.com/watch?v=dX5QNZtQXX4)
+
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
