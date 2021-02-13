@@ -137,7 +137,8 @@ content:
       - layout: left
         title: Technical Universtiy of Denmark (DTU)
         caption: 09/2018 - 01/2019
-        sub_title: B.Sc. Computer Science (Exchange Semester)
+        sub_title: B.Sc. Computer Science 
+                   (Exchange Semester)
         description: | # this will include new lines to allow paragraphs
           Subjetcs taken:
           - Programming in C++
