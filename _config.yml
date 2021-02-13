@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
     
   <mark>Servus:</mark> The most general way how to welcome somebody in Bavaria.
 
-  A current version of my CV in PDF file format can be found [here](https://drive.google.com/file/d/1O9_kYG8ZXJeU8kTsx7_3_WTKfWCpVh5a/view?usp=sharing)
+  A current version of my CV in PDF file format can be found [here.](https://drive.google.com/file/d/1O9_kYG8ZXJeU8kTsx7_3_WTKfWCpVh5a/view?usp=sharing)
 
 content:
   - title: Projects # Title for the section
