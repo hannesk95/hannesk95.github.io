@@ -84,7 +84,9 @@ content:
         caption: April 2020 - Present
       
         description: | # this will include new lines to allow paragraphs
-            Responsibility: Assessment and Implementation of various Machine Learning and Deep Learning Methods for industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure.
+            Responsibility: 
+            - Identify and collect suitable data in the context of communication networks
+            - Assessment and Implementation of various Machine Learning and Deep Learning Methods for industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure
 
       - layout: left
         title: Infineon Technologies Asia Pacific Pte. Ltd.
@@ -123,6 +125,7 @@ content:
         caption: 04/2020 - Present
         sub_title: M.Sc. Electrical- and Computer Engineering
         description: | # this will include new lines to allow paragraphs
+          Subjetcs taken:
           - Applied Machine Intelligence
           - Computer Vision
           - Machine Learning in Robotics
@@ -136,6 +139,7 @@ content:
         caption: 09/2018 - 01/2019
         sub_title: B.Sc. Computer Science (Exchange Semester)
         description: | # this will include new lines to allow paragraphs
+          Subjetcs taken:
           - Programming in C++
           - Introducion into Machine Learning and Data Mining
           - Introduction to Image Analysis
@@ -145,6 +149,7 @@ content:
         caption: 10/2015 - 03/2020
         sub_title: B.Eng. Electrical Engineering and Information Technology
         description: | # this will include new lines to allow paragraphs
+          Subjetcs taken:
           - Programming in C and Java
           - Communication Networks
           - Embedded Systems
