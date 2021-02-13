@@ -6,4 +6,4 @@ This personal online resume contains an overview about projects I've been workin
 
 ## Acknowledgement
 
-Thank you so much [James Grant](https://github.com/sproogen) for providing a modern theme template in order to set up an online resume using GitHub Pages. The actual link to the original repository can be found [here](https://github.com/sproogen/modern-resume-theme). 
+Thank you so much [James Grant](https://github.com/sproogen) for providing a modern theme template in order to easily set up an online resume using GitHub Pages. The actual link to the original repository can be found [here](https://github.com/sproogen/modern-resume-theme). 
