@@ -58,6 +58,13 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: top-middle
+        title: Distributed Dynamic Programming using OpenMPI in C++
+        link: https://github.com/hannesk95/        
+        description: | # this will include new lines to allow paragraphs
+
+
       - layout: top-middle
         title: Investigating the Impact of COVID-19 on the Climate Change
         link: https://github.com/hannesk95/COVID-19_and_CO2
@@ -74,6 +81,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           
           In the context of a university lecture called "Applied Machine Intelligence" at Technical University Munich (TUM), chair of data processing, in a group of 8 students, we have been investigating the impact of COVID-19 on the climate change. In order to draw inference on collected data, various machine learning approaches were used.
+
+      - layout: top-middle
+        title: Person Image Segmentation using conventional Computer Vision Methods
+        link: https://github.com/hannesk95/Person-Image-Segmentation        
+        description: | # this will include new lines to allow paragraphs
+
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
