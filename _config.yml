@@ -86,6 +86,8 @@ content:
         title: Person Image Segmentation using conventional Computer Vision Methods
         link: https://github.com/hannesk95/Person-Image-Segmentation        
         description: | # this will include new lines to allow paragraphs
+        
+        This project was carried out as part of the computer vision lecture at the Technical University of Munich (TUM) in the summer semester 2020. The goal of this project was to implement a person image segmentation using conventional computer vision methods.
 
 
   - title: Professional Experience # Title for the section
@@ -99,7 +101,7 @@ content:
         caption: April 2020 - Present
       
         description: | # this will include new lines to allow paragraphs
-            Responsibility: 
+            Responsibilities: 
             - Identify and collect suitable data in the context of communication networks
             - Assessment and Implementation of various Machine Learning and Deep Learning Methods for industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure
 
