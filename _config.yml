@@ -9,7 +9,7 @@ version: 2
 name: Johannes Kiechle
 title: M.Sc. Student in Electrical- and Computer Engineering
 email: hannes.kiechle@gmail.com
-website: www.hannesk95.github.io
+# website: www.hannesk95.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   My personal interests are particularly related to the fields of Artificial Intelligence (Machine Learning, Deep Learning), Computer Vision, Embedded and Computer Systems, High-Performance-Computing as well as Intelligence on the Edge.
     
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  <mark>Servus:</mark> The most general way how to welcome somebody in bavrian native language.
 
 content:
   - title: Projects # Title for the section
