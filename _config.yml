@@ -60,17 +60,17 @@ content:
         title: Investigating the Impact of COVID-19 on the Climate Change
         link: https://github.com/hannesk95/COVID-19_and_CO2
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # quote: >
+          # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          In the context of a university lecture called "Applied Machine Intelligence" at Technical University Munich (TUM), chair of data processing, we have been investigating the impact of COVID-19 on the climate change in the summer term 2020. In order to make inference on collected data, various machine learning approaches were used.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -121,6 +121,8 @@ content:
           - Optimal Control and Decision Making
           - High Performace Computing for Machine Intelligence in Python/C++
           - Seminar Machine Learning about Robustness and Distribution Shifts
+          - Smart Data Engineering
+    
 
 
   - title: A Little More About Me
@@ -130,7 +132,7 @@ content:
       - Soccer
       - Traveling
       - Cooking
-      - [Spending time with friends while having a ice cold beer](https://www.youtube.com/watch?v=dX5QNZtQXX4)
+      - [Spending time with friends while having an ice cold beer](https://www.youtube.com/watch?v=dX5QNZtQXX4)
 
 
       Look at this cool image  
