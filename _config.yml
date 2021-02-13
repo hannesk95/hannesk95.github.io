@@ -72,7 +72,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           In the context of a university lecture called "Applied Machine Intelligence" at Technical University Munich (TUM), chair of data processing, we have been investigating the impact of COVID-19 on the climate change in the summer term 2020. In order to make inference on collected data, various machine learning approaches were used.
 
-  - title: Experience # Title for the section
+  - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -112,7 +112,7 @@ content:
     content:
       - layout: left
         title: Technical Universtiy Munich (TUM)
-        caption: 2010 - 2013
+        caption: 04/2020 - Present
         sub_title: M.Sc. Electrical- and Computer Engineering
         description: | # this will include new lines to allow paragraphs
           - Applied Machine Intelligence
@@ -122,7 +122,28 @@ content:
           - High Performace Computing for Machine Intelligence in Python/C++
           - Seminar Machine Learning about Robustness and Distribution Shifts
           - Smart Data Engineering
-    
+      
+      - layout: left
+        title: Technical Universtiy of Denmark (DTU)
+        caption: 09/2018 - 01/2019
+        sub_title: B.Sc. Computer Science (Exchange Semester)
+        description: | # this will include new lines to allow paragraphs
+          - Programming in C++
+          - Introducion into Machine Learning and Data Mining
+          - Introduction to Image Analysis
+      
+      - layout: left
+        title: University of Applied Sciences Munich (MUAS)
+        caption: 10/2015 - 03/2020
+        sub_title: B.Eng. Electrical Engineering and Information Technology
+        description: | # this will include new lines to allow paragraphs
+          - Programming in C and Java
+          - Communication Networks
+          - Embedded Systems
+          - Control Theory
+          - Measurement Technology
+          - Power Electronics
+          - Electrical Machines    
 
 
   - title: A Little More About Me
