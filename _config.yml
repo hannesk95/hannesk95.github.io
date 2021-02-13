@@ -70,7 +70,8 @@ content:
         # quote: >
           # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          In the context of a university lecture called "Applied Machine Intelligence" at Technical University Munich (TUM), chair of data processing, we have been investigating the impact of COVID-19 on the climate change in the summer term 2020. In order to make inference on collected data, various machine learning approaches were used.
+          
+          In the context of a university lecture called "Applied Machine Intelligence" at Technical University Munich (TUM), chair of data processing, we have been investigating the impact of COVID-19 on the climate change in the summer term 2020. In order to draw inference on collected data, various machine learning approaches were used.
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -95,6 +96,12 @@ content:
         description: | # this will include new lines to allow paragraphs
             Entrusted Project: "Machine Learning based 2.5-Dimensional Face Recognition and Spoof Detection using Depth Data provided by a Time-of-Flight (ToF) Sensor"
 
+            Key Tasks:
+            - Development of a sensor interface in order to retrieve data and collect an extensive data set
+            - Analysis, synthesis, and training of a suitable neural network architecture which meets real-time requirements
+            - Prototypical implementation, testing, and initiation of the face recognition application using a high-performance microcomputer (Nvidia Jetson Nano)
+
+
       - layout: left
         title: Infineon Technologies AG
         link: www.infineon.com
@@ -105,6 +112,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Scope of Investigation: "Proof of Concept Machine Learning based Control Loop Parameter Optimization for a DC-DC Buck Converter"
             
+            Key tasks: Identify and collect suitable data which subsequently was used to develop, train, and evaluate an eligible deep neural network that is capable of predicting optimal control loop parameters from transient responses.
 
 
   - title: Education # Title for the section
