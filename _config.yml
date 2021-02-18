@@ -61,7 +61,7 @@ content:
 
       - layout: top-middle
         title: Distributed Dynamic Programming using OpenMPI in C++
-        link: https://github.com/hannesk95/        
+        link: https://github.com/hannesk95/Distributed-DP        
         description: | # this will include new lines to allow paragraphs
 
         In this project, an asynchronous value iteration while heavily using OpenMPI is presented. This is done for the purpose of distributing the entire workload across several physical machines. Different strategies are implemented and benchmarked accordingly.
@@ -195,8 +195,8 @@ content:
       - [Spending time with friends while having an ice cold beer](https://www.youtube.com/watch?v=dX5QNZtQXX4)
 
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    # Look at this cool image  
+    # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
