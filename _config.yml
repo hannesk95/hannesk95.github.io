@@ -107,7 +107,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Responsibilities: 
             - Identify and collect suitable data in the context of communication networks
-            - Assessment and Implementation of various Machine Learning and Deep Learning Methods for industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure
+            - Assessment and implementation of various machine learning and deep learning methods for industrial edge-cloud environments and intelligent manufacturing infrastructure
 
       - layout: left
         title: Infineon Technologies Asia Pacific Pte. Ltd.
