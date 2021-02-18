@@ -63,15 +63,13 @@ content:
         title: Distributed Dynamic Programming using OpenMPI in C++
         link: https://github.com/hannesk95/Distributed-DP        
         description: | # this will include new lines to allow paragraphs
-
-        In this project, an asynchronous value iteration while heavily using OpenMPI is presented. This is done for the purpose of distributing the entire workload across several physical machines. Different strategies are implemented and benchmarked accordingly.
+          In this project, an asynchronous value iteration while heavily using OpenMPI is presented. This is done for the purpose of distributing the entire workload across several physical machines. Different strategies are implemented and benchmarked accordingly.
 
       - layout: top-middle
         title: Consumer-Producer based Multithreading using Mutex in C++
         link: https://github.com/hannesk95/Consumer-Producer-Model        
         description: | # this will include new lines to allow paragraphs
-
-        This project showcases a producer-consumer model using mutual exclusions (Mutex) in C++ in order to draw the well known Barnsley fern. Therein, the computational workload can distributed among several workers in order to speed up the entire process. The number of workers is selectable and can be adjusted according to the processing hardware at hand.
+          This project showcases a producer-consumer model using mutual exclusions (Mutex) in C++ in order to draw the well known Barnsley fern. Therein, the computational workload can distributed among several workers in order to speed up the entire process. The number of workers is selectable and can be adjusted according to the processing hardware at hand.
 
       - layout: top-middle
         title: Investigating the Impact of COVID-19 on the Climate Change
@@ -86,16 +84,14 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         # quote: >
           # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          
+        description: | # this will include new lines to allow paragraphs          
           In the context of a university lecture called "Applied Machine Intelligence" at Technical University Munich (TUM), chair of data processing, in a group of 8 students, we have been investigating the impact of COVID-19 on the climate change. In order to draw inference on collected data, various machine learning approaches were used.
 
       - layout: top-middle
         title: Person Image Segmentation using conventional Computer Vision Methods
         link: https://github.com/hannesk95/Person-Image-Segmentation        
         description: | # this will include new lines to allow paragraphs
-        
-        This project was carried out as part of the computer vision lecture at the Technical University of Munich (TUM) in the summer semester 2020. The goal of this project was to implement a person image segmentation using conventional computer vision methods.
+          This project was carried out as part of the computer vision lecture at the Technical University of Munich (TUM) in the summer semester 2020. The goal of this project was to implement a person image segmentation using conventional computer vision methods.
 
 
   - title: Professional Experience # Title for the section
