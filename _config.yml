@@ -64,6 +64,14 @@ content:
         link: https://github.com/hannesk95/        
         description: | # this will include new lines to allow paragraphs
 
+        In this project, an asynchronous value iteration while heavily using OpenMPI is presented. This is done for the purpose of distributing the entire workload across several physical machines. Different strategies are implemented and benchmarked accordingly.
+
+      - layout: top-middle
+        title: Consumer-Producer based Multithreading using Mutex in C++
+        link: https://github.com/hannesk95/Consumer-Producer-Model        
+        description: | # this will include new lines to allow paragraphs
+
+        This project showcases a producer-consumer model using mutual exclusions (Mutex) in C++ in order to draw the well known Barnsley fern. Therein, the computational workload can distributed among several workers in order to speed up the entire process. The number of workers is selectable and can be adjusted according to the processing hardware at hand.
 
       - layout: top-middle
         title: Investigating the Impact of COVID-19 on the Climate Change
