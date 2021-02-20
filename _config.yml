@@ -138,6 +138,15 @@ content:
             Key tasks: Identify and collect suitable data which subsequently was used to develop, train, and evaluate an eligible deep neural network that is capable of predicting optimal control loop parameters from transient responses.
 
 
+  - title: Awards # Title for the section
+    layout: list # Type of content section (list/text)
+     content:
+      - layout: top-middle
+        title: Best Customer Orientation and Usability Award - Siemens Summer Camp Digital Twins
+        #link: https://github.com/hannesk95/Person-Image-Segmentation        
+        description: | # this will include new lines to allow paragraphs
+        The group challenge which I've been assigned to was: "Connect Real World Scenarios to the Digital Twin of an Autonomous Vehice in Real Time". 
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
