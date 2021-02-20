@@ -145,7 +145,7 @@ content:
         title: Best Customer Orientation and Usability Award - Siemens Summer Camp Digital Twins
         #link: https://github.com/hannesk95/Person-Image-Segmentation        
         description: | # this will include new lines to allow paragraphs
-        The group challenge which I've been assigned to was: "Connect Real World Scenarios to the Digital Twin of an Autonomous Vehice in Real Time". 
+        The group challenge which I've been assigned to was: "Connect Real World Scenarios to the Digital Twin of an Autonomous Vehice in Real Time". Personal learning outcomes: Collecting as much information as possible done by a smart infrastructure in real-time and providing this additional knowledge to all possible road users will be for sure one of the key components of future autonomous car deployments.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
