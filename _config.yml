@@ -145,17 +145,17 @@ content:
         title: Best Customer Orientation and Usability Award 
         sub_title: Siemens Summer Camp Digital Twins     
         description: | # this will include new lines to allow paragraphs
-            The group challenge which I've been assigned to was: "Connect Real World Scenarios to the Digital Twin of an Autonomous Vehice in Real Time". Personal learning outcomes: Collecting as much information as possible done by a smart infrastructure in real-time and providing this additional knowledge to all possible road users will be for sure one of the key components of future autonomous car deployments.
+            The group challenge which I've been assigned to was: "Connect Real World Scenarios to the Digital Twin of an Autonomous Vehice in Real Time". Personal learning outcomes: Collecting as much information as possible done by a smart infrastructure in real-time and providing this additional knowledge to all possible road users will be for sure one of the key components of future autonomous car deployments. The award in PDF file format can be found [here.](https://drive.google.com/file/d/1RZJxrZYmx3wJrCrdvMbAVl3W-Ur8tmau/view?usp=sharing)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Technical Universtiy Munich (TUM)
         caption: 04/2020 - Present
         sub_title: M.Sc. Electrical- and Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          Subjetcs taken:
+          Outline of subjetcs taken:
           - Applied Machine Intelligence
           - Computer Vision
           - Machine Learning in Robotics
@@ -170,7 +170,7 @@ content:
         sub_title: B.Sc. Computer Science 
                    (Exchange Semester)
         description: | # this will include new lines to allow paragraphs
-          Subjetcs taken:
+          Outline of subjetcs taken:
           - Programming in C++
           - Introducion into Machine Learning and Data Mining
           - Introduction to Image Analysis
@@ -180,7 +180,7 @@ content:
         caption: 10/2015 - 03/2020
         sub_title: B.Eng. Electrical Engineering and Information Technology
         description: | # this will include new lines to allow paragraphs
-          Subjetcs taken:
+          Outline of subjetcs taken:
           - Programming in C and Java
           - Communication Networks
           - Embedded Systems
