@@ -140,7 +140,7 @@ content:
 
   - title: Awards # Title for the section
     layout: list # Type of content section (list/text)
-     content:
+    content:
       - layout: top-middle
         title: Best Customer Orientation and Usability Award - Siemens Summer Camp Digital Twins
         #link: https://github.com/hannesk95/Person-Image-Segmentation        
