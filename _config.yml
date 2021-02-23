@@ -134,7 +134,7 @@ content:
       
         description: | # this will include new lines to allow paragraphs
             Scope of Investigation: "Proof of Concept Machine Learning based Control Loop Parameter Optimization for a DC-DC Buck Converter"
-            
+
             Key tasks: Identify and collect suitable data which subsequently was used to develop, train, and evaluate an eligible deep neural network that is capable of predicting optimal control loop parameters from transient responses.
 
 
@@ -188,6 +188,35 @@ content:
           - Measurement Technology
           - Power Electronics
           - Electrical Machines    
+
+   - title: Programming Experience, API's and Frameworks
+    layout: list
+    content:
+      - layout: left
+        title: Programming Languages
+        description:
+            - Python
+            - C/C++
+            - Linux
+            - Matlab
+            - Java
+        
+      - layout: left
+        title: API's
+        description:
+            - OpenMP (Mulitprocessing)
+            - OpenMPI (Message Passing Interface)
+            - OpenCV (Computer Vision Library)
+            - CFFI (C Foreign Function Interface for Python)
+      
+      - layout: left
+        title: Data Science Frameworks
+        description:
+            - Keras
+            - Tensorflow
+            - Scikit-learn
+            - Apache MXNet (Gluon)      
+
 
 
   - title: A Little More About Me
