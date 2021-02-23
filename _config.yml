@@ -190,7 +190,7 @@ content:
     content:
       - layout: left
         title: Programming Languages
-        description:
+        description: |
             - Python
             - C/C++
             - Linux
@@ -199,7 +199,7 @@ content:
         
       - layout: left
         title: API's
-        description:
+        description: |
             - OpenMP (Mulitprocessing)
             - OpenMPI (Message Passing Interface)
             - OpenCV (Computer Vision Library)
@@ -207,7 +207,7 @@ content:
       
       - layout: left
         title: Data Science Frameworks
-        description:
+        description: |
             - Keras
             - Tensorflow
             - Scikit-learn
