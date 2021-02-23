@@ -178,8 +178,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           Outline of subjetcs taken:
           - Programming in C and Java
-          - Communication Networks
+          - Unix/Linux
+          - Microcomputers
           - Embedded Systems
+          - Numerical Mathematical Methods
+          - Communication Networks          
           - Control Theory
           - Measurement Technology
           - Power Electronics
