@@ -50,15 +50,12 @@ about_profile_image: images/myself.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Servus, my name is Hannes and I'm an open-minded Masters Student at Technical University Munich (TUM) in Electrical and Computer Engineering. My focus is on Automation and Robotics, I'm eager to meet new challenges and I like to think outside the box. My personal interests are particularly related to the fields of Artificial Intelligence (Machine Learning, Deep Learning), Computer Vision, Embedded and Computer Systems, High-Performance-Computing as well as Intelligence on the Edge. A current version of my CV in PDF file format can be found [here.](https://drive.google.com/file/d/1O9_kYG8ZXJeU8kTsx7_3_WTKfWCpVh5a/view?usp=sharing)
     
-  <mark>Servus:</mark> The most general way how to welcome somebody in Bavaria.
-
-  
+  <mark>Servus:</mark> The most general way how to welcome somebody in Bavaria.  
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-
       - layout: top-middle
         title: Distributed Dynamic Programming using OpenMPI in C++
         link: https://github.com/hannesk95/Distributed-DP        
@@ -92,7 +89,6 @@ content:
         link: https://github.com/hannesk95/Person-Image-Segmentation        
         description: | # this will include new lines to allow paragraphs
           This project was carried out as part of the computer vision lecture at the Technical University of Munich (TUM) in the summer semester 2020. The goal of this project was to implement a person image segmentation using conventional computer vision methods.
-
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
