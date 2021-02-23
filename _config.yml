@@ -185,7 +185,7 @@ content:
           - Power Electronics
           - Electrical Machines    
 
-  - title: Programming Experience, API's and Frameworks
+  - title: Programming Experience, OS, API's and Frameworks
     layout: list
     content:
       - layout: left
@@ -196,6 +196,12 @@ content:
             - Linux
             - Matlab
             - Java
+
+      - layout: left
+        title: OS
+        description: |
+            - Linux
+            - Windows            
         
       - layout: left
         title: API's
