@@ -63,6 +63,12 @@ content:
           This is the current project I'm involved into. All work is done in cooperation with the Data Analytics & AI team of Volkswagen Data:Lab Munich in the context of the TUM Data Innovation Lab. Further information about to follow. 
 
       - layout: top-middle
+        title: Unsupervised Anomaly Detection using an Isolation Forest
+        link: https://github.com/hannesk95/Unsupervised-Anomaly-Detection       
+        description: | # this will include new lines to allow paragraphs
+          This work showcases a holistic approach how to perform anomaly detection for rail traffic data of Finland. Therein, a so-called Isolation Forest is trained in order to detect anomal data samples.
+
+      - layout: top-middle
         title: Distributed Dynamic Programming using OpenMPI in C++
         link: https://github.com/hannesk95/Distributed-DP        
         description: | # this will include new lines to allow paragraphs
