@@ -60,7 +60,7 @@ content:
         title: Geometrical Deep Learning on 3D Models - Classification for Additive Manufacturing
         link:        
         description: | # this will include new lines to allow paragraphs
-          This is the current project I'm involved into. All work is done in cooperation with the Data Analytics & AI team of Volkswagen Data:Lab Munich. Further information about to follow. 
+          This is the current project I'm involved into. All work is done in cooperation with the Data Analytics & AI team of Volkswagen Data:Lab Munich in the context of the TUM Data Innovation Lab. Further information about to follow. 
 
       - layout: top-middle
         title: Distributed Dynamic Programming using OpenMPI in C++
