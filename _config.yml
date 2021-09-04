@@ -78,7 +78,7 @@ content:
         title: Dynamic-Programming using OpenMP in C++
         link: https://github.com/hannesk95/Dynamic-Programming-for-MDP        
         description: | # this will include new lines to allow paragraphs
-          This project implements an asynchronous value iteration for a Markov Decisioin Process (MDP) using Bellman's principle of optimality. Python (for convenience purposes) and C++ (for performance purposes) are linked using [**CFFI**](https://cffi.readthedocs.io/en/latest/). Furthermore, [**OpenMP**](https://www.openmp.org//wp-content/uploads/OpenMP-4.0-C.pdf) is used in order to parallelize the iteration process.
+          This project implements an asynchronous value iteration for a Markov Decisioin Process (MDP) using Bellman's principle of optimality. Python (for convenience purposes) and C++ (for performance purposes) are linked using CFFI. Furthermore, OpenMP is used in order to parallelize the value iteration process.
 
       - layout: top-middle
         title: Consumer-Producer based Multithreading using Mutex in C++
