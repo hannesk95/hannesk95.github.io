@@ -128,7 +128,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Entrusted Project: "Geometrical Deep Learning on 3D Models: Classification for Additive Manufacturing."
 
-            The internship was carried out within the scope of [TUM Data Innovation Lab](https://www.di-lab.tum.de/en/tum-di-lab/)          
+            The internship was carried out within the scope of [TUM Data Innovation Lab](https://www.di-lab.tum.de/en/tum-di-lab/).     
 
 
       - layout: left
@@ -197,6 +197,8 @@ content:
           - High Performace Computing for Machine Intelligence in Python/C++
           - Seminar Machine Learning about Robustness and Distribution Shifts
           - Smart Data Engineering
+          - Machine Learning: Methods & Tools
+          - TUM Data Innovation Lab
       
       - layout: left
         title: Technical Universtiy of Denmark (DTU)
