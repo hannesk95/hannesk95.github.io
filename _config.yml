@@ -60,7 +60,7 @@ content:
         title: Geometrical Deep Learning on 3D Models - Classification for Additive Manufacturing
         link: https://github.com/hannesk95/Classification-for-Additive-Manufacturing        
         description: | # this will include new lines to allow paragraphs
-          The overall goal of this project was about developing an algorithm using deep learning, which is capable of predicting whether a 3D-model is printable or not. In this context, printable refers to the context of additive manufacturing. All work is done in cooperation with the Data Analytics & AI team of (Volkswagen Data:Lab Munich)[https://datalab-munich.de/] carried out in the context of the TUM Data Innovation Lab.
+          The overall goal of this project was about developing an algorithm using deep learning, which is capable of predicting whether a 3D-model is printable or not. In this context, printable refers to the context of additive manufacturing. All work is done in cooperation with the Data Analytics & AI team of [Volkswagen Data:Lab Munich](https://datalab-munich.de/) carried out in the context of the [TUM Data Innovation Lab](https://www.di-lab.tum.de/en/tum-di-lab/).
 
       - layout: top-middle
         title: Unsupervised Anomaly Detection using an Isolation Forest
