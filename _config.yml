@@ -66,13 +66,19 @@ content:
         title: Unsupervised Anomaly Detection using an Isolation Forest
         link: https://github.com/hannesk95/Unsupervised-Anomaly-Detection       
         description: | # this will include new lines to allow paragraphs
-          This work showcases a holistic approach how to perform anomaly detection for rail traffic data of Finland. Therein, a so-called Isolation Forest is trained in order to detect anomal data samples.
+          This work showcases a holistic approach how to perform anomaly detection for rail traffic data of Finland. Therein, a so-called Isolation Forest is trained in order to detect abnormal data samples.
 
       - layout: top-middle
         title: Distributed Dynamic Programming using OpenMPI in C++
         link: https://github.com/hannesk95/Distributed-DP        
         description: | # this will include new lines to allow paragraphs
           In this project, an asynchronous value iteration while heavily using OpenMPI is presented. This is done for the purpose of distributing the entire workload across several physical machines. Different strategies are implemented and benchmarked accordingly.
+
+      - layout: top-middle
+        title: Dynamic-Programming using OpenMP in C++
+        link: https://github.com/hannesk95/Dynamic-Programming-for-MDP        
+        description: | # this will include new lines to allow paragraphs
+          This project implements an asynchronous value iteration for a Markov Decisioin Process (MDP) using Bellman's principle of optimality. Python (for convenience purposes) and C++ (for performance purposes) are linked using [**CFFI**](https://cffi.readthedocs.io/en/latest/). Furthermore, [**OpenMP**](https://www.openmp.org//wp-content/uploads/OpenMP-4.0-C.pdf) is used in order to parallelize the iteration process.
 
       - layout: top-middle
         title: Consumer-Producer based Multithreading using Mutex in C++
