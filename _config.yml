@@ -145,7 +145,7 @@ content:
         caption: April 2020 - March 2021
       
         description: | # this will include new lines to allow paragraphs
-            Responsibilities: 
+            Responsibility: 
             - Identify and collect suitable data in the context of communication networks
             - Assessment and implementation of various machine learning and deep learning methods for industrial edge-cloud environments and intelligent manufacturing infrastructure
 
