@@ -106,11 +106,24 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Siemens Mobility GmbH
+        link: www.mobility.siemens.com
+        # link_text: boringcompany.com
+        sub_title: Working Student 
+        caption: April 2021 - Present
+      
+        description: | # this will include new lines to allow paragraphs
+            Responsibility: 
+            - Data analytics in rail applications
+            - Multivariate time-series anomaly detection using deep autoencoders
+
+
+      - layout: left
         title: Siemens AG
         link: www.siemens.com
         # link_text: boringcompany.com
         sub_title: Working Student 
-        caption: April 2020 - Present
+        caption: April 2020 - March 2021
       
         description: | # this will include new lines to allow paragraphs
             Responsibilities: 
