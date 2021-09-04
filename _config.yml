@@ -196,8 +196,8 @@ content:
           - Introduction to Container Technology & Application to AI
           - Introduction to the LRZ AI Infrastructure
           - Intel AI HPC Workshop: Machine Learning Module
-          - Intel AI HPC Workshop: Deep Learning Module
-          Each 3,5h course module was offered as combination of lectures, demos and/or hands-on sessions.
+          - Intel AI HPC Workshop: Deep Learning Module <br>
+          Each 3,5h course module was offered as combination of lectures, demos and/or hands-on sessions. The certificate in PDF file format can be found [here.](https://drive.google.com/file/d/1SYJsKJQ0IyG0psfrtTwKAQxAMX0EOAGc/view?usp=sharing)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
