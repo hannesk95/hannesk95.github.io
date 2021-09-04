@@ -119,6 +119,19 @@ content:
 
 
       - layout: left
+        title: Volkswagen Data:Lab Munich
+        link: https://datalab-munich.de/
+        # link_text: boringcompany.com
+        sub_title: Internship 
+        caption: April 2021 - July 2021
+      
+        description: | # this will include new lines to allow paragraphs
+            Entrusted Project: "Geometrical Deep Learning on 3D Models: Classification for Additive Manufacturing."
+
+            The internship was carried out within the scope of [TUM Data Innovation Lab](https://www.di-lab.tum.de/en/tum-di-lab/)          
+
+
+      - layout: left
         title: Siemens AG
         link: www.siemens.com
         # link_text: boringcompany.com
