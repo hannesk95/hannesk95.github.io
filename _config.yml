@@ -241,23 +241,28 @@ content:
         title: Operating System Experience
         description: |
             - Linux
-            - Windows            
-        
-      - layout: left
-        title: API's
-        description: |
-            - OpenMP (Mulitprocessing)
-            - OpenMPI (Message Passing Interface)
-            - OpenCV (Computer Vision Library)
-            - CFFI (C Foreign Function Interface for Python)
-      
+            - Windows        
+
       - layout: left
         title: Data Science Frameworks
         description: |
             - Keras
             - Tensorflow
+            - PyTorch / PyTorch Lightning
             - Scikit-learn
-            - Apache MXNet (Gluon)      
+            - Apache MXNet (Gluon)     
+        
+      - layout: left
+        title: Miscellaneous
+        description: |
+            - Docker
+            - Nvidia Enroot
+            - Slurm (Workload Management)
+            - OpenMP (Mulitprocessing)
+            - OpenMPI (Message Passing Interface)
+            - OpenCV (Computer Vision Library)
+            - CFFI (C Foreign Function Interface for Python)      
+           
 
   - title: A Little More About Me
     layout: text
@@ -266,7 +271,6 @@ content:
       - Soccer
       - Traveling
       - Cooking
-      - [Spending time with friends while having an ice cold beer](https://www.youtube.com/watch?v=dX5QNZtQXX4)
 
 
     # Look at this cool image  
