@@ -228,11 +228,11 @@ content:
           - Power Electronics
           - Electrical Machines    
 
-  - title: Programming Experience, OS, API's and Frameworks
+  - title: Experience - Programming, Operating Systems and other Frameworks
     layout: list
     content:
       - layout: left
-        title: Programming Languages
+        title: Programming
         description: |
             - Python
             - C/C++
@@ -240,13 +240,13 @@ content:
             - Java
 
       - layout: left
-        title: Operating System Experience
+        title: Operating System
         description: |
             - Linux
             - Windows        
 
       - layout: left
-        title: Data Science Frameworks
+        title: Machine Learning / Deep Learning
         description: |
             - Keras
             - Tensorflow
