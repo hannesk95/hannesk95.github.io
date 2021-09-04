@@ -178,7 +178,7 @@ content:
             Key tasks: Identify and collect suitable data which subsequently was used to develop, train, and evaluate an eligible deep neural network that is capable of predicting optimal control loop parameters from transient responses.
 
 
-  - title: Awards # Title for the section
+  - title: Awards & Certificates # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -186,6 +186,18 @@ content:
         sub_title: Siemens Summer Camp Digital Twins     
         description: | # this will include new lines to allow paragraphs
             The group challenge which I've been assigned to was: "Connect Real World Scenarios to the Digital Twin of an Autonomous Vehice in Real Time". Personal learning outcomes: Collecting as much information as possible done by a smart infrastructure in real-time and providing this additional knowledge to all possible road users will be for sure one of the key components of future autonomous car deployments. The award in PDF file format can be found [here.](https://drive.google.com/file/d/1RZJxrZYmx3wJrCrdvMbAVl3W-Ur8tmau/view?usp=sharing)
+
+      - layout: top-middle
+        title: Data Analytics, Big Data & AI Training Week 
+        sub_title: Leibniz Supercomputing Centere     
+        description: | # this will include new lines to allow paragraphs
+          Outline of modules:
+          - Introduction to the LRZ Compute Cloud
+          - Introduction to Container Technology & Application to AI
+          - Introduction to the LRZ AI Infrastructure
+          - Intel AI HPC Workshop: Machine Learning Module
+          - Intel AI HPC Workshop: Deep Learning Module
+          Each 3,5h course module was offered as combination of lectures, demos and/or hands-on sessions.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
