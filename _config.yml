@@ -58,10 +58,10 @@ content:
     content:
 
       - layout: top-middle
-        title: Explaining Shape Variability:Supervised Disentangling Variational Graph Autoencoder (in progress)
+        title: Explaining Shape Variability - Supervised Disentangling Variational Graph Autoencoder (in progress)
         link: https://github.com/hannesk95/Explaining_Shape_Variability        
         description: | # this will include new lines to allow paragraphs
-          This work showcases a variational graph autoencoder disentanglement using 3D mesh data.
+          This work showcases a variational graph autoencoder disentanglement using 3D mesh data. For further information, please refer to the corresponding paper which can be found in the doc directory of the repository. 
 
       - layout: top-middle
         title: Geometrical Deep Learning on 3D Models - Classification for Additive Manufacturing
@@ -126,9 +126,9 @@ content:
         caption: May 2022 - September 2022
       
         description: | # this will include new lines to allow paragraphs
-            Scope of Investigation: Variational graph convolution autoencoders for disentangled, interpretable feature representation-learning of 3D mesh hippocampus data. 
+            Scope of Investigation: "Variational graph convolution autoencoder for disentangled, interpretable feature representation-learning of 3D mesh hippocampus data."
 
-            Research project constitutes the basis of my master thesis.
+            The research work constitutes the basis of my master thesis and was funded by [UARE](https://www.ualberta.ca/admissions-programs/visiting-student-and-internship-programs/research-internships/ualberta-research-experience/index.html).
 
       - layout: left
         title: Siemens Mobility GmbH
@@ -202,10 +202,10 @@ content:
     content:
 
       - layout: top-middle
-        title: Reserach Scholarship:Artifical Intelligence 
+        title: Reserach Scholarship - Artifical Intelligence 
         sub_title: German Academic Exchange Service     
         description: | # this will include new lines to allow paragraphs
-            The program supports research-oriented stays abroad for master's students in the fields of artificial intelligence, computer science, and related disciplines.
+            The program supports research-oriented stays abroad for master's students in the fields of artificial intelligence, computer science, and related disciplines. The official certificate can be found [here](https://drive.google.com/file/d/1Ozr9xJ8UJB92gal30xBNnqXj-5qtIOD1/view?usp=sharing).
 
       - layout: top-middle
         title: Best Customer Orientation and Usability Award 
