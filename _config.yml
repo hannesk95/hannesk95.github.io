@@ -22,7 +22,7 @@ github_username: hannesk95
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: johannes-kiechle-9b3142178
+linkedin_username: johannes-kiechle
 xing_username: Johannes_Kiechle
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -50,12 +50,19 @@ about_profile_image: images/myself.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Servus, my name is Hannes and I'm an open-minded Masters Student at Technical University Munich (TUM) in Electrical and Computer Engineering. My focus is on Automation and Robotics, I'm eager to meet new challenges and I like to think outside the box. My personal interests are particularly related to the fields of Artificial Intelligence (Machine Learning, Deep Learning), Computer Vision, Embedded and Computer Systems, High-Performance-Computing as well as Intelligence on the Edge. A current version of my CV in PDF file format can be found [here.](https://drive.google.com/file/d/1O9_kYG8ZXJeU8kTsx7_3_WTKfWCpVh5a/view?usp=sharing)
     
-  <mark>Servus:</mark> The most general way how to welcome somebody in Bavaria.  
+  <mark>Servus:</mark> The most general and traditional way to welcome anybody in Bavaria.  
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: top-middle
+        title: Explaining Shape Variability:Supervised Disentangling Variational Graph Autoencoder (in progress)
+        link: https://github.com/hannesk95/Explaining_Shape_Variability        
+        description: | # this will include new lines to allow paragraphs
+          This work showcases a variational graph autoencoder disentanglement using 3D mesh data.
+
       - layout: top-middle
         title: Geometrical Deep Learning on 3D Models - Classification for Additive Manufacturing
         link: https://github.com/hannesk95/Classification-for-Additive-Manufacturing        
@@ -112,11 +119,23 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: University of Alberta
+        link: www.ualberta.ca
+        # link_text: boringcompany.com
+        sub_title: Internship / Master Thesis 
+        caption: May 2022 - September 2022
+      
+        description: | # this will include new lines to allow paragraphs
+            Scope of Investigation: Variational graph convolution autoencoders for disentangled, interpretable feature representation-learning of 3D mesh hippocampus data. 
+
+            Research project constitutes the basis of my master thesis.
+
+      - layout: left
         title: Siemens Mobility GmbH
         link: www.mobility.siemens.com
         # link_text: boringcompany.com
         sub_title: Working Student 
-        caption: April 2021 - Present
+        caption: April 2021 - March 2022
       
         description: | # this will include new lines to allow paragraphs
             Responsibility: 
@@ -181,6 +200,13 @@ content:
   - title: Awards & Certificates # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: top-middle
+        title: Reserach Scholarship:Artifical Intelligence 
+        sub_title: German Academic Exchange Service     
+        description: | # this will include new lines to allow paragraphs
+            The program supports research-oriented stays abroad for master's students in the fields of artificial intelligence, computer science, and related disciplines.
+
       - layout: top-middle
         title: Best Customer Orientation and Usability Award 
         sub_title: Siemens Summer Camp Digital Twins     
