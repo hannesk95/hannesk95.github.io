@@ -291,6 +291,24 @@ section { margin-bottom: 40px; }
 }
 
 /* ---------- Papers ---------- */
+/* ---------- CV ---------- */
+.cv-list { list-style: none; margin: 0; padding: 0; }
+.cv-list li {
+  display: flex;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.cv-list li:last-child { border-bottom: none; }
+.cv-date {
+  flex-shrink: 0;
+  width: 120px;
+  font-weight: 700;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.cv-sub { color: var(--muted); }
+
 .papers { list-style: none; margin: 0; padding: 0; }
 .paper {
   display: flex;
@@ -388,6 +406,8 @@ footer a { font-size: 13px; }
   .paper { flex-direction: column; gap: 10px; }
   .paper-thumb { width: 100%; max-width: 320px; }
   .news-date { width: 62px; }
+  .cv-list li { flex-direction: column; gap: 2px; }
+  .cv-date { width: auto; }
   .project { padding: 16px 16px 4px; }
 }
 
