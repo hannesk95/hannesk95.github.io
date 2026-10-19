@@ -115,22 +115,6 @@
       abstract: "In clinical routine, high-dimensional descriptors of the cardiac function such as shape and deformation are reduced to scalars (e.g. volumes or ejection fraction), which limit the characterization of complex diseases. Besides, these descriptors undergo interactions depending on disease, which may bias their computational analysis. In this paper, we aim at characterizing such interactions by unsupervised manifold learning. We propose to use a sparsified version of Multiple Manifold Learning to align the latent spaces encoding each descriptor and weighting the strength of the alignment depending on each pair of samples. While this framework was up to now only applied to link different datasets from the same manifold, we demonstrate its relevance to characterize the interactions between different but partially related descriptors of the cardiac function (shape and deformation). We benchmark our approach against linear and non-linear embedding strategies, among which the fusion of manifolds by Multiple Kernel Learning, the independent embedding of each descriptor by Diffusion Maps, and a strict alignment based on pairwise correspondences. We first evaluated the methods on a synthetic dataset from a 0D cardiac model where the interactions between descriptors are fully controlled. Then, we transfered them to a population of right ventricular meshes from 310 subjects (100 healthy and 210 patients with right ventricular disease) obtained from 3D echocardiography, where the link between shape and deformation is key for disease understanding. Our experiments underline the relevance of jointly considering shape and deformation descriptors, and that manifold alignment is preferable over fusion for our application. They also confirm at a finer scale the characteristic traits of the right ventricular diseases in our population." },
   ];
 
-  var PROJECTS = [
-    { id: "tabular",
-      title: "Vision-tabular learning",
-      focus: "Applications include cardiac MRI from the UK Biobank.",
-      text: "Large biobanks pair medical images with hundreds of clinical attributes. This project develops vision-tabular models that use tabular information to learn better image representations and that keep working when clinical data is partly or completely missing at inference." },
-    { id: "cardiac",
-      title: "Characterisation of cardiac shape and deformation",
-      focus: "Focus: right ventricle, 3D echocardiography.",
-      text: "Rich descriptors of cardiac function (3D shape, myocardial deformation) are usually reduced to scalars like volumes or ejection fraction. This project keeps them high-dimensional and uses manifold learning and manifold alignment to study how shape and deformation relate, how they change with disease, and how much they depend on how they are computed." },
-  ];
-
-  var TEAM = [
-    { group: "postdoc", name: "Shurong Zhang",     role: "Postdoctoral researcher", years: "2026–", topic: "", cosup: "", link: "" },
-    { group: "phd",     name: "Morgan Scalabrino", role: "PhD student, Télécom Paris, IP Paris", years: "2026–", topic: "Multimodal representation learning for breast cancer decision support from imaging and clinical data", cosup: "Pietro Gori and Elsa Angelini", link: "https://morganscalabrino.github.io/" },
-    { group: "phd",     name: "Marta Hasny",       role: "PhD student, Technical University of Munich / Helmholtz Munich", years: "2024–", topic: "Cardiac foundation models", cosup: "Keno Bressem and Julia Schnabel", link: "https://compai-lab.github.io/author/marta-hasny/" },
-  ];
   </script>
 </head>
 
@@ -140,8 +124,6 @@
       <a class="brand" href="#home">Johannes Kiechle<span class="brand-long">, PhD</span></a>
       <div class="navlinks">
         <a href="#home" data-page="home">Home</a>
-        <a href="#research" data-page="research">Research</a>
-        <a href="#team" data-page="team">Team</a>
         <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
           <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
           <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v2.5M12 20v2.5M1.5 12H4M20 12h2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
@@ -156,7 +138,7 @@
     <div class="page" id="page-home">
       <section class="profile">
         <div class="profile-text">
-          <h1 class="name">Johannes Kiechle, PhD</h1>
+          <h1 class="name">Johannes Kiechle, MSc</h1>
           <p class="subtitle">Associate Professor in Computational Biomedical Imaging</p>
           <p class="affiliation">LTCI, Télécom Paris, Institut Polytechnique de Paris</p>
 
@@ -166,10 +148,10 @@
           <ul class="links">
             <li><a href="https://scholar.google.com/citations?user=PVzoXrAAAAAJ&amp;hl=fr">Google Scholar</a></li>
             <li><a href="https://orcid.org/0000-0001-6160-8050">ORCID</a></li>
-            <li><a href="https://linkedin.com/in/maximedf">LinkedIn</a></li>
+            <li><a href="https://linkedin.com/in/johanneskiechle">LinkedIn</a></li>
           </ul>
 
-          <p class="callout">I am happy to hear from students interested in a Master's thesis, PhD or postdoc. Write to me at <span class="email">maxime[dot]difolco[at]telecom-paris[dot]fr</span>.</p>
+          <p class="callout">I am happy to hear from students interested in a Master's thesis, PhD or postdoc. Write to me at <span class="email">johannes[dot]kiechle[at]tum[dot]de</span>.</p>
         </div>
         <div class="profile-photo">
           <img src="images/headshot-web.JPG" alt="Portrait of Johannes Kiechle" width="220" height="220">
@@ -189,29 +171,9 @@
       <section>
         <h2>Selected articles</h2>
         <ul class="papers" id="recent-papers"></ul>
-        <p><a href="#research">See all research →</a></p>
       </section>
     </div>
 
-    <!-- ========================== RESEARCH ========================== -->
-    <div class="page" id="page-research">
-      <section>
-        <h2>Research</h2>
-        <p class="intro">My research focuses on representation learning for medical imaging, with a particular interest in multimodal learning: combining medical images with the clinical data that come with them to improve diagnosis and give a more complete description of each patient.</p>
-        <p class="intro">My main application is cardiology, where I also work on the analysis of cardiac shape and deformation. Breast cancer is a second application. Across both, I aim to build models that are robust, including when clinical data are incomplete, and fair across patient populations.</p>
-      </section>
-      <div id="projects"></div>
-      <p>Full list of publications on <a href="https://scholar.google.com/citations?user=PVzoXrAAAAAJ&amp;hl=fr">Google Scholar</a>.</p>
-    </div>
-
-    <!-- ============================ TEAM ============================ -->
-    <div class="page" id="page-team">
-      <section>
-        <h2>Team</h2>
-        <div id="team-groups"></div>
-      </section>
-      <p class="callout"><strong>Join the team.</strong> I am looking for motivated students and researchers for Master's internships, PhD positions and postdocs in multimodal AI for medical imaging. Send your CV and a short description of your interests to <span class="email">maxime[dot]difolco[at]telecom-paris[dot]fr</span>.</p>
-    </div>
   </main>
 
   <footer>
@@ -254,31 +216,7 @@
     var FIGURE_PLACEHOLDER = '<div class="figure-placeholder">Figure</div>';
     function figurePlaceholder(img) { img.outerHTML = FIGURE_PLACEHOLDER; }
 
-    // Full entry (Research): figure, or a placeholder until it exists, then the abstract.
-    function researchPaperHTML(p) {
-      var figure = p.thumb
-        ? '<img src="' + esc(p.thumb) + '" alt="Figure from: ' + esc(p.title) + '" loading="lazy" onerror="figurePlaceholder(this)">'
-        : FIGURE_PLACEHOLDER;
-      return '<article class="article">' +
-        '<div class="article-head">' +
-          '<div class="article-figure">' + figure + "</div>" +
-          '<div class="paper-body">' + paperMeta(p) + "</div>" +
-        "</div>" +
-        (p.abstract ? '<div class="abstract"><span class="abstract-label">Abstract</span><p>' + esc(p.abstract) + "</p></div>" : "") +
-        "</article>";
-    }
-
     function byDateDesc(a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; }
-
-    function personHTML(m) {
-      var name = m.link ? '<a href="' + esc(m.link) + '">' + esc(m.name) + "</a>" : esc(m.name);
-      return '<div class="person"><div>' +
-        '<div class="person-name">' + name + "</div>" +
-        '<p class="person-role">' + esc(m.role) + (m.years ? ", " + esc(m.years) : "") + "</p>" +
-        (m.topic ? '<p class="person-topic">' + esc(m.topic) + "</p>" : "") +
-        (m.cosup ? '<p class="person-role">Co-supervised with ' + esc(m.cosup) + "</p>" : "") +
-        "</div></div>";
-    }
 
     // News
     document.getElementById("news-list").innerHTML = NEWS.map(function (n) {
@@ -292,28 +230,8 @@
     var sorted = PAPERS.slice().sort(byDateDesc);
     document.getElementById("recent-papers").innerHTML = sorted.slice(0, 4).map(paperHTML).join("");
 
-    // Research projects
-    document.getElementById("projects").innerHTML = PROJECTS.map(function (pr) {
-      var papers = sorted.filter(function (p) { return p.project === pr.id; });
-      return '<section class="project" id="project-' + esc(pr.id) + '">' +
-        "<h3>" + esc(pr.title) + "</h3>" +
-        "<p>" + esc(pr.text) + "</p>" +
-        (pr.focus ? '<p class="project-focus">' + esc(pr.focus) + "</p>" : "") +
-        papers.map(researchPaperHTML).join("") + "</section>";
-    }).join("");
-
-    // Team
-    // Groups with nobody in them are not shown.
-    var GROUPS = [["postdoc", "Postdocs"], ["phd", "PhD students"], ["master", "Master's students"], ["alumni", "Alumni"]];
-    document.getElementById("team-groups").innerHTML = GROUPS.map(function (g) {
-      var people = TEAM.filter(function (m) { return m.group === g[0]; });
-      return people.length
-        ? "<h3>" + g[1] + '</h3><div class="people">' + people.map(personHTML).join("") + "</div>"
-        : "";
-    }).join("");
-
-    // Hash routing: #home, #research, #team
-    var PAGES = ["home", "research", "team"];
+    // Hash routing: #home
+    var PAGES = ["home"];
     function route() {
       var page = location.hash.replace("#", "");
       if (PAGES.indexOf(page) === -1) page = "home";
