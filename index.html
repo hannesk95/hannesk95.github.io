@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Maxime Di Folco – Computational Biomedical Imaging, Télécom Paris</title>
-  <meta name="description" content="Maxime Di Folco, Associate Professor at Télécom Paris (Institut Polytechnique de Paris). Multimodal AI combining medical imaging and clinical data for robust clinical decision support in cardiology and breast cancer.">
-  <meta name="author" content="Maxime Di Folco">
+  <title>Johannes Kiechle – Computational Biomedical Imaging, Télécom Paris</title>
+  <meta name="description" content="Johannes Kiechle, Associate Professor at Télécom Paris (Institut Polytechnique de Paris). Multimodal AI combining medical imaging and clinical data for robust clinical decision support in cardiology and breast cancer.">
+  <meta name="author" content="Johannes Kiechle">
   <link rel="canonical" href="https://maxdifolco.github.io/">
 
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="Maxime Di Folco, PhD">
+  <meta property="og:title" content="Johannes Kiechle, PhD">
   <meta property="og:description" content="Associate Professor in Computational Biomedical Imaging at Télécom Paris, Institut Polytechnique de Paris.">
   <meta property="og:url" content="https://maxdifolco.github.io/">
   <meta property="og:image" content="https://maxdifolco.github.io/images/headshot-web.jpg">
@@ -26,7 +26,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Maxime Di Folco",
+    "name": "Johannes Kiechle",
     "jobTitle": "Associate Professor",
     "affiliation": { "@type": "Organization", "name": "IMAGES team, LTCI, Télécom Paris, Institut Polytechnique de Paris" },
     "url": "https://maxdifolco.github.io/",
@@ -57,7 +57,7 @@
                  `thumb` is the figure (images/papers/<file>); until the file
                  exists a "Figure" placeholder is shown on the Research page.
                  `abstract` is shown under the paper on the Research page.
-                 "Maxime Di Folco" is bolded automatically.
+                 "Johannes Kiechle" is bolded automatically.
      - projects: shown on the Research page in this order.
      - team:     `group` is one of "postdoc", "phd", "master", "alumni".
                  `cosup` (co-supervisors), `topic`, `years` and `link`
@@ -87,28 +87,28 @@
   var PAPERS = [
     { id: "nodata", date: "2025-12", project: "tabular",
       title: "No Data? No Problem: Robust Vision-Tabular Learning with Missing Values",
-      authors: "Marta Hasny, Laura Daza, Keno Bressem, Maxime Di Folco, Julia A. Schnabel",
+      authors: "Marta Hasny, Laura Daza, Keno Bressem, Johannes Kiechle, Julia A. Schnabel",
       venue: "International Conference on Machine Learning (ICML)", year: 2026,
       links: { pdf: "https://arxiv.org/pdf/2512.19602", code: "https://github.com/marteczkah/RoVTL" },
       thumb: "images/papers/nodata.png",
       abstract: "Large-scale medical biobanks provide imaging data complemented by extensive tabular information, such as clinical measurements or demographics. However, this abundance of tabular attributes does not reflect real-world datasets, where only a subset of attributes may be available. This discrepancy calls for methods that remain robust to missing values at inference. To address this challenge, we propose RoVTL (Robust Vision-Tabular Learning), a framework designed to handle any level of tabular data availability, from 0% to 100%. RoVTL comprises two key stages: contrastive pretraining, where we introduce tabular attribute missingness as data augmentation to promote robustness, and downstream task tuning, where tabular missingness is complemented by a novel Tabular More vs. Fewer loss that ranks performance based on the amount of available tabular data. Combined with gated-cross attention fusion module, our tuning approach enables consistent performance across all tabular data completeness scenarios. We evaluate RoVTL on cardiac MRI scans from the UK Biobank, demonstrating superior robustness to missing tabular data compared to prior methods. Furthermore, RoVTL successfully generalizes to an external cardiac MRI dataset for multimodal disease classification, and extends to the natural images domain, achieving robust performance on a car advertisements dataset. The model weights and code are available at https://github.com/marteczkah/RoVTL." },
     { id: "tgv", date: "2025-03", project: "tabular",
       title: "Tables Guide Vision: Learning to See the Heart through Tabular Data",
-      authors: "Marta Hasny, Maxime Di Folco, Keno Bressem, Julia A. Schnabel",
+      authors: "Marta Hasny, Johannes Kiechle, Keno Bressem, Julia A. Schnabel",
       venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)", year: 2026,
       links: { pdf: "https://openaccess.thecvf.com/content/WACV2026/papers/Hasny_Tables_Guide_Vision_Learning_to_See_the_Heart_through_Tabular_WACV_2026_paper.pdf", code: "https://github.com/marteczkah/tables_guide_vision" },
       thumb: "images/papers/tgv.png",
       abstract: "Contrastive learning methods in computer vision typically rely on augmented views of the same image or multimodal pretraining strategies that align paired modalities. However, these approaches often overlook semantic relationships between distinct instances, leading to false negatives when semantically similar samples are treated as negatives. This limitation is especially critical in medical imaging domains such as cardiology, where demographic and clinical attributes play a critical role in assessing disease risk and patient outcomes. We introduce a tabular-guided contrastive learning framework that leverages clinically relevant tabular data to identify patient-level similarities and construct more meaningful pairs, enabling semantically aligned representation learning without requiring joint embeddings across modalities. Additionally, we adapt the k-NN algorithm for zero-shot prediction to overcome the lack of zero-shot capability in unimodal representations. We demonstrate the strength of our methods using a large cohort of short-axis cardiac MR images and clinical attributes, where tabular data helps to more effectively distinguish between patient subgroups. Evaluation on downstream tasks, including fine-tuning, linear probing, and zero-shot prediction of cardiovascular artery diseases and cardiac phenotypes, shows that incorporating tabular data guidance yields stronger visual representations than conventional methods that rely solely on image augmentation or combined image-tabular embeddings. Further, we show that our method can generalize to natural images by evaluating it on a car advertisement dataset. Code is available at https://github.com/marteczkah/tables_guide_vision." },
     { id: "divergence", date: "2025-01", project: "cardiac",
       title: "Visualizing definitional divergence in high-dimensional data by manifold alignment: Application to 3D right ventricular strain computations",
-      authors: "Maxime Di Folco, Gabriel Bernardino, Patrick Clarysse, Nicolas Duchateau",
+      authors: "Johannes Kiechle, Gabriel Bernardino, Patrick Clarysse, Nicolas Duchateau",
       venue: "IEEE Transactions on Medical Imaging", year: 2026,
       links: { pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11540178", code: "https://github.com/maxdifolco/definitional_divergence" },
       thumb: "images/papers/divergence.png",
       abstract: "Medical imaging studies often rely on a single sample per subject, assuming it is representative of their physiological traits. However, variations in how input descriptors are defined or computed (e.g. due to a lack of consensus in the scientific field) may have a crucial impact on the analysis, and are hardly considered in practice. In this paper, we propose an original strategy based on representation learning to estimate a parametric map reflecting the impact of such definitional differences on a given physiological descriptor, previously extracted from medical images. We consider the different definitions or computations of such physiological descriptors as different high-dimensional data, potentially of heterogeneous types. We specifically focus on myocardial deformation (strain), for which there is limited agreement on its definition. We first use manifold alignment to match the latent representations associated with the different definitions of this descriptor. Then, we formulate plausible distributions in the latent space to represent definitional divergence across descriptors, from which we reconstruct a high-dimensional parametric map to visualize such definitional divergence. Due to the lack of proper ground truth for this specific clinical application, we first demonstrate this methodology on toy experiments and then expand the evaluation on right ventricular strain data from subjects obtained from 3D echocardiographic image sequences, for which different types of strain are available at each point of the right ventricle endocardial surface mesh. Beyond this illustrative application, our methodology has the potential to be generalised to many other population analyses considering heterogeneous high-dimensional descriptors." },
     { id: "shape-deformation", date: "2022-01", project: "cardiac",
       title: "Characterizing interactions between cardiac shape and deformation by non-linear manifold learning",
-      authors: "Maxime Di Folco, Pamela Moceri, Patrick Clarysse, Nicolas Duchateau",
+      authors: "Johannes Kiechle, Pamela Moceri, Patrick Clarysse, Nicolas Duchateau",
       venue: "Medical Image Analysis, vol. 75, 102278", year: 2022,
       links: { pdf: "https://hal.science/hal-03407714/document" },
       thumb: "images/papers/shape-deformation.png",
@@ -137,7 +137,7 @@
 <body>
   <nav class="topnav" aria-label="Main">
     <div class="container">
-      <a class="brand" href="#home">Maxime Di Folco<span class="brand-long">, PhD</span></a>
+      <a class="brand" href="#home">Johannes Kiechle<span class="brand-long">, PhD</span></a>
       <div class="navlinks">
         <a href="#home" data-page="home">Home</a>
         <a href="#research" data-page="research">Research</a>
@@ -156,7 +156,7 @@
     <div class="page" id="page-home">
       <section class="profile">
         <div class="profile-text">
-          <h1 class="name">Maxime Di Folco, PhD</h1>
+          <h1 class="name">Johannes Kiechle, PhD</h1>
           <p class="subtitle">Associate Professor in Computational Biomedical Imaging</p>
           <p class="affiliation">LTCI, Télécom Paris, Institut Polytechnique de Paris</p>
 
@@ -172,7 +172,7 @@
           <p class="callout">I am happy to hear from students interested in a Master's thesis, PhD or postdoc. Write to me at <span class="email">maxime[dot]difolco[at]telecom-paris[dot]fr</span>.</p>
         </div>
         <div class="profile-photo">
-          <img src="images/headshot-web.jpg" alt="Portrait of Maxime Di Folco" width="220" height="220">
+          <img src="images/headshot-web.jpg" alt="Portrait of Johannes Kiechle" width="220" height="220">
         </div>
       </section>
 
@@ -216,7 +216,7 @@
 
   <footer>
     <div class="container">
-      © <span id="year">2026</span> Maxime Di Folco ·
+      © <span id="year">2026</span> Johannes Kiechle ·
       Design adapted from <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron's website</a>
     </div>
   </footer>
