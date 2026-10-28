@@ -325,6 +325,7 @@ a.papertitle:hover { color: var(--accent); text-decoration: none; }
   letter-spacing: .04em;
   text-transform: uppercase;
 }
+.paper-links a.as-is { text-transform: none; }
 .paper-links a:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
 
 /* ---------- CV (timeline) ---------- */

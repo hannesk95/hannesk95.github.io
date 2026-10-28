@@ -79,14 +79,14 @@
       title: "Graph Representation Learning of Longitudinal Medical Imaging Trajectories for Treatment Response Prediction",
       authors: "Johannes Kiechle, Richard Osuala, Daniel M. Lang, Stefan M. Fischer, Ivana Janíčková, Karim Lekadir, Julia A.Schnabel, Jan C. Peeken",
       venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI) GRAIL", year: 2026,
-      links: { pdf: "https://arxiv.org/pdf/2607.04912" },
+      links: { pdf: "https://arxiv.org/pdf/2607.04912", code: "#", pypi: "#" },
       thumb: "images/papers/gnn-pcr.png",
       abstract: "" },
     { id: "tomographview", date: "2026-09", project: "n/a",
       title: "TomoGraphView: 3D Medical Image Classification with Omnidirectional Slice Representations and Graph Neural Networks",
       authors: "Johannes Kiechle, Stefan M. Fischer, Daniel M. Lang, Cosmin I. Bercea, Matthew J. Nyflot, Lina Felsner, Julia A. Schnabel, Jan C. Peeken",
       venue: "Medical Image Analysis, vol.113, 104174", year: 2026,
-      links: { pdf: "https://www.sciencedirect.com/science/article/pii/S1361841526002434?casa_token=QzJJO3VFerQAAAAA:wStyBg_TfcDpAWtgr0viV0jCk3jCoaNqVDRHtDcABYsgnzO72B7g2JGMN1LiTxl8RJ0nwbsV2A" },
+      links: { pdf: "https://www.sciencedirect.com/science/article/pii/S1361841526002434?casa_token=QzJJO3VFerQAAAAA:wStyBg_TfcDpAWtgr0viV0jCk3jCoaNqVDRHtDcABYsgnzO72B7g2JGMN1LiTxl8RJ0nwbsV2A", code: "#", pypi: "#" },
       thumb: "images/papers/tomographview.jpg",
       abstract: "" },
     { id: "gnn-dinov2", date: "2025-03", project: "n/a",
@@ -229,11 +229,15 @@
       });
     }
 
+    // Link labels shown as written instead of uppercased.
+    var LINK_LABELS = { pypi: "PyPI" };
+
     // Title, authors, venue and links of a paper.
     function paperMeta(p) {
       var authors = esc(p.authors).replace(ME_PATTERN, "<strong>$&</strong>");
       var links = Object.keys(p.links || {}).map(function (k) {
-        return '<a href="' + esc(p.links[k]) + '">' + esc(k) + "</a>";
+        var label = LINK_LABELS[k];
+        return '<a href="' + esc(p.links[k]) + '"' + (label ? ' class="as-is"' : "") + ">" + esc(label || k) + "</a>";
       }).join("");
       var href = (p.links || {}).pdf;
       return (href ? '<a class="papertitle" href="' + esc(href) + '">' + esc(p.title) + "</a>" : '<span class="papertitle">' + esc(p.title) + "</span>") +
