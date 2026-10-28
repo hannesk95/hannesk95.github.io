@@ -20,6 +20,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&display=swap">
   <link rel="stylesheet" href="stylesheet.css">
 
   <script type="application/ld+json">
@@ -32,8 +35,8 @@
     "url": "https://hannesk95.github.io/",
     "image": "https://hannesk95.github.io/images/headshot-web.JPG",
     "sameAs": [
-      "https://scholar.google.com/citations?user=PVzoXrAAAAAJ",
-      "https://orcid.org/0000-0001-6160-8050",
+      "https://scholar.google.com/citations?user=QOKARtUAAAAJ",
+      "https://orcid.org/0009-0004-9610-146X",
       "https://linkedin.com/in/johannes-kiechle"
     ]
   }
@@ -92,7 +95,7 @@
     { id: "gnn-dinov2", date: "2025-03", project: "n/a",
       title: "Graph Neural Networks: A Suitable Alternative to MLPs in Latent 3D Medical Image Classification?",
       authors: "Johannes Kiechle, Daniel M. Lang, Stefan M. Fischer, Lina Felsner, Jan C. Peeken, Julia A. Schnabel",
-      venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI) GRAIL", year: 2024,
+      venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI) GRAIL", year: 2025,
       links: { pdf: "https://arxiv.org/pdf/2407.17219"},
       thumb: "images/papers/gnn-dinov2.png",
       abstract: "" },
@@ -145,7 +148,7 @@
           <!-- <p>Before this, I was a postdoctoral researcher in cardiac imaging at Helmholtz Munich and the Technical University of Munich, in the group of Prof. Julia Schnabel, working on representation learning for cardiac imaging and multimodal data. I did my PhD at Université de Lyon (CREATIS) with Nicolas Duchateau and Patrick Clarysse, on manifold learning to model and analyse cardiac function.</p> -->
 
           <ul class="links">
-            <li><a href="mailto:johannes.kiechle@tum.de">E-Mail</a></li>
+            <li><a class="primary" href="mailto:johannes.kiechle@tum.de">E-Mail</a></li>
             <li><a href="https://scholar.google.com/citations?user=QOKARtUAAAAJ&hl=en">Google Scholar</a></li>            
             <li><a href="https://linkedin.com/in/johannes-kiechle">LinkedIn</a></li>
             <li><a href="https://github.com/hannesk95">GitHub</a></li>
@@ -216,12 +219,12 @@
   <footer>
     <div class="container">
       © <span id="year">2026</span> Johannes Kiechle ·
-      Design adapted from <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron's website</a>
+      <!-- Design adapted from <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron's website</a> -->
     </div>
   </footer>
 
   <script>
-    var ME_PATTERN = /(Maxime|M\.) Di Folco/;
+    var ME_PATTERN = /Johannes Kiechle/;
 
     function esc(s) {
       return String(s).replace(/[&<>"]/g, function (c) {
