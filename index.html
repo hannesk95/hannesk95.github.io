@@ -57,6 +57,7 @@
                  `thumb` is the figure (images/papers/<file>); until the file
                  exists a "Figure" placeholder is shown on the Research page.
                  `abstract` is shown under the paper on the Research page.
+                 `bibtex` is shown when the BibTeX button is clicked.
                  "Johannes Kiechle" is bolded automatically.
      - projects: shown on the Research page in this order.
      - team:     `group` is one of "postdoc", "phd", "master", "alumni".
@@ -81,6 +82,7 @@
       venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI) GRAIL", year: 2026,
       links: { pdf: "https://arxiv.org/pdf/2607.04912", code: "#", pypi: "https://pypi.org/project/ISPY2-pCR-dataset/" },
       thumb: "images/papers/gnn-pcr.png",
+      bibtex: "@inproceedings{kiechle20XXdummy,\n  title     = {Dummy Title},\n  author    = {Kiechle, Johannes and others},\n  booktitle = {Dummy Venue},\n  year      = {20XX}\n}",
       abstract: "" },
     { id: "tomographview", date: "2026-09", project: "n/a",
       title: "TomoGraphView: 3D Medical Image Classification with Omnidirectional Slice Representations and Graph Neural Networks",
@@ -88,6 +90,7 @@
       venue: "Medical Image Analysis", year: 2026,
       links: { pdf: "https://www.sciencedirect.com/science/article/pii/S1361841526002434?casa_token=QzJJO3VFerQAAAAA:wStyBg_TfcDpAWtgr0viV0jCk3jCoaNqVDRHtDcABYsgnzO72B7g2JGMN1LiTxl8RJ0nwbsV2A", code: "#", pypi: "https://pypi.org/project/OmniSlicer/" },
       thumb: "images/papers/tomographview.jpg",
+      bibtex: "@inproceedings{kiechle20XXdummy,\n  title     = {Dummy Title},\n  author    = {Kiechle, Johannes and others},\n  booktitle = {Dummy Venue},\n  year      = {20XX}\n}",
       abstract: "" },
     { id: "gnn-dinov2", date: "2025-03", project: "n/a",
       title: "Graph Neural Networks: A Suitable Alternative to MLPs in Latent 3D Medical Image Classification?",
@@ -95,6 +98,7 @@
       venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI) GRAIL", year: 2025,
       links: { pdf: "https://arxiv.org/pdf/2407.17219", code: "#" },
       thumb: "images/papers/gnn-dinov2.png",
+      bibtex: "@inproceedings{kiechle20XXdummy,\n  title     = {Dummy Title},\n  author    = {Kiechle, Johannes and others},\n  booktitle = {Dummy Venue},\n  year      = {20XX}\n}",
       abstract: "" },
     { id: "glolo", date: "2024-05", project: "n/a",
       title: "Unifying Local and Global Shape Descriptors to Grade Soft-Tissue Sarcomas Using Graph Convolutional Networks",
@@ -102,6 +106,7 @@
       venue: "IEEE International Symposium on Biomedical Imaging (ISBI)", year: 2024,
       links: { pdf: "https://ieeexplore.ieee.org/abstract/document/10635799", code: "#" },
       thumb: "images/papers/glolo.png",
+      bibtex: "@inproceedings{kiechle20XXdummy,\n  title     = {Dummy Title},\n  author    = {Kiechle, Johannes and others},\n  booktitle = {Dummy Venue},\n  year      = {20XX}\n}",
       abstract: "" },
     { id: "variational", date: "2023-04", project: "n/a",
       title: "Explaining Anatomical Shape Variability: Supervised Disentangling with A Variational Graph Autoencoder",
@@ -109,6 +114,7 @@
       venue: "IEEE International Symposium on Biomedical Imaging (ISBI)", year: 2023,
       links: { pdf: "https://ieeexplore.ieee.org/abstract/document/10230661", code: "#" },
       thumb: "images/papers/variational.png",
+      bibtex: "@inproceedings{kiechle20XXdummy,\n  title     = {Dummy Title},\n  author    = {Kiechle, Johannes and others},\n  booktitle = {Dummy Venue},\n  year      = {20XX}\n}",
       abstract: "" },
   ];
 
@@ -242,11 +248,13 @@
         var label = LINK_LABELS[k];
         return '<a href="' + esc(p.links[k]) + '"' + (label ? ' class="as-is"' : "") + ">" + esc(label || k) + "</a>";
       }).join("");
+      if (p.bibtex) links += '<button type="button" class="bibtex-toggle as-is" aria-expanded="false">BibTeX</button>';
       var href = (p.links || {}).pdf;
       return (href ? '<a class="papertitle" href="' + esc(href) + '">' + esc(p.title) + "</a>" : '<span class="papertitle">' + esc(p.title) + "</span>") +
         '<p class="paper-authors">' + authors + "</p>" +
         '<p class="paper-venue"><em>' + esc(p.venue) + "</em>, " + esc(p.year) + "</p>" +
-        (links ? '<p class="paper-links">' + links + "</p>" : "");
+        (links ? '<p class="paper-links">' + links + "</p>" : "") +
+        (p.bibtex ? '<pre class="bibtex" hidden>' + esc(p.bibtex) + "</pre>" : "");
     }
 
     // Compact entry (Home): thumbnail only if the image exists.
@@ -273,6 +281,15 @@
     // Selected articles (4 newest)
     var sorted = PAPERS.slice().sort(byDateDesc);
     document.getElementById("recent-papers").innerHTML = sorted.slice(0, 6).map(paperHTML).join("");
+
+    // BibTeX dropdowns
+    document.addEventListener("click", function (e) {
+      var btn = e.target.closest(".bibtex-toggle");
+      if (!btn) return;
+      var pre = btn.closest(".paper-body").querySelector(".bibtex");
+      pre.hidden = !pre.hidden;
+      btn.setAttribute("aria-expanded", String(!pre.hidden));
+    });
 
     // Hash routing: #home, #cv
     var PAGES = ["home", "cv"];
