@@ -200,7 +200,7 @@ section { margin-bottom: 56px; }
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   margin: 24px 0 0;
   padding: 0;
   list-style: none;
@@ -209,7 +209,7 @@ section { margin-bottom: 56px; }
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  padding: 7px 16px;
+  padding: 7px 12px;
   border: 1px solid var(--border);
   border-radius: 999px;
   color: var(--text);
