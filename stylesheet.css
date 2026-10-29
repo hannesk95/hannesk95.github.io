@@ -208,6 +208,7 @@ section { margin-bottom: 56px; }
 .links a {
   display: inline-flex;
   align-items: center;
+  gap: 7px;
   padding: 7px 16px;
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -216,6 +217,7 @@ section { margin-bottom: 56px; }
   font-weight: 500;
   transition: border-color .15s ease, color .15s ease, background .15s ease;
 }
+.links a svg { width: 15px; height: 15px; flex-shrink: 0; }
 .links a:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); text-decoration: none; }
 .links a.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .links a.primary:hover { filter: brightness(1.1); color: #fff; }
